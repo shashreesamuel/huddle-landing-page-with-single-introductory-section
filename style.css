@@ -1,0 +1,22 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+}
+.container__title {
+}
+.container__desc {
+}
+.container__button {
+}
