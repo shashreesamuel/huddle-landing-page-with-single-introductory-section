@@ -60,12 +60,13 @@ body{
 
 
 .container__button {
-  font-family: var(--font-os);
+  font-family: var(--font-poppins);
   color: var(--violet);
   background-color: white;
   border-radius: 4rem;
-  padding: 1rem;
-  width: max-content;
+  padding: 1.2rem;
+  width: 5rem;
+  height: auto;
   box-shadow: -2px 7px 15px -9px rgba(0,0,0,0.75);;
 }
 
@@ -132,7 +133,6 @@ body{
 
   .container__description{
     text-align: justify;
-    display: flex;
   }
 
 
@@ -163,6 +163,10 @@ body{
 
   .bg-desktop{
     display: none;
+  }
+
+  .word-break{
+    word-break: break-all;
   }
 }
 
