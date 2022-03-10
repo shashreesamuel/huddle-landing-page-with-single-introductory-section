@@ -1,6 +1,10 @@
 :root {
   --violet: hsl(257, 40%, 49%);
   --soft-magenta: hsl(300, 69%, 71%);
+  --font-os: 'Open Sans', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 * {
@@ -12,11 +16,41 @@
   text-decoration: none;
 }
 
-.container {
+
+body{
+  background-color: var(--violet);
 }
+
+
 .container__title {
+  margin: 1rem 3rem;
+  font-family: var(--font-poppins);
+  font-weight:var(--fw-bold);
+  color: white;
 }
-.container__desc {
+
+
+.container__subtitle {
+  font-family: var(--font-os);
 }
+
+
+.container__description {
+  color: white;
+  font-family: var(--font-os);
+}
+
+
+.container__image{
+  margin: 1rem 2rem;
+}
+
 .container__button {
+  font-family: var(--font-os);
+  color: white;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
