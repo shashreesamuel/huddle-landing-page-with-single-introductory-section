@@ -6,6 +6,10 @@
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -26,7 +30,7 @@
 
   <body>
     <main>
-      <h1 class="container__title">Huddle</h1>
+      <img class="container__logo" src="./images/logo.svg" alt="" />
 
       <div class="grid-container">
         <div>
@@ -35,22 +39,31 @@
             src="./images/illustration-mockups.svg"
             alt=""
           />
+          <img class="bg-desktop" src="./images/bg-desktop.svg"  alt="">
+          <img class="bg-mobile" src="./images/bg-desktop.svg"  alt="">
         </div>
 
         <article class="container">
           <h2 class="container__subtitle">
-            Build The Community Your Fans Will Love
+            Build The Community <br />Your Fans Will Love
           </h2>
 
           <p class="container__description">
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
-            engage in genuine discussion.
+            Huddle re-imagines the way we build communities. You have <br />a
+            voice, but so does your audience. Create connections with <br />your
+            users as you engage in genuine discussion.
           </p>
 
           <a class="container__button" href="#">Register</a>
         </article>
       </div>
     </main>
+    <footer>
+      <div class="social__icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-instagram"></i>
+      </div>
+    </footer>
   </body>
 </html>
