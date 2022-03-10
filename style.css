@@ -21,7 +21,9 @@ body{
   background-color: var(--violet);
 }
 
-
+.container{
+  margin-top: 5rem;
+}
 .container__title {
   margin: 1rem 3rem;
   font-family: var(--font-poppins);
@@ -31,7 +33,10 @@ body{
 
 
 .container__subtitle {
-  font-family: var(--font-os);
+  font-family: var(--font-poppins);
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 
@@ -48,6 +53,9 @@ body{
 .container__button {
   font-family: var(--font-os);
   color: white;
+  background-color: black;
+  border-radius: 4rem;
+  margin-top: 5rem;
 }
 
 .grid-container{
