@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/TheCoderGuru/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [Add live site URL here](http://huddle-landing-page-five-omega.vercel.app/)
+- Solution URL: [Check out the code here](https://github.com/TheCoderGuru/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [Go to the live site](http://huddle-landing-page-five-omega.vercel.app/)
 
 ## My process
 
