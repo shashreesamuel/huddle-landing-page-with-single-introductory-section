@@ -23,6 +23,8 @@
 
 body{
   background-color: var(--violet);
+  background-image: url('./images/bg-desktop.svg'); 
+  background-repeat: no-repeat;
 }
 
 
@@ -118,15 +120,21 @@ body{
   .grid-container{
     grid-template-columns: 1fr;
   }
+
+  body{
+    overflow-x: hidden;
+  }
   
   .container__image{
-    height: 19rem;
+    height: 16rem;
     width: auto;
     margin-left: 2rem;
   }
 
   .container__logo{
     margin-left: 2rem;
+    height: 2.5rem;
+    width: auto
   }
 
   .container{
@@ -136,25 +144,24 @@ body{
 
   .container__description{
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 6rem;
+    margin-left: 2rem;
   }
 
 
   .container__subtitle{
     text-align: center;
-    margin-right: 3rem;
+    margin-right: 4rem;
     font-size: 1.6rem;
   }
 
   .social__icons{
-    right: 13rem;
+    right: 11rem;
     margin-top: 6rem;
   }
 
   .container__button{
-    margin-left: 6rem;
-    width: 20vw;
-    height: auto;
+    margin-left: 4rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
