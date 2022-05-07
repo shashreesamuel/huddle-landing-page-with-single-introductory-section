@@ -48,20 +48,12 @@ Users should be able to:
 
 ### What I learned
 
-While attempting this challenge, I was a bit unfamiliar with the concept of css grids and the properties involved to customize a grid which in this instance is the ```grid-template-columns``` property.
-
-
-```css
-.container{
-	display: grid;
-	grid-template-columns: 1fr 1.3fr;
-}
-```
-
+I learn the concept of css grids and the properties involved to customize a grid which in this instance is the ```grid-template-columns``` property and requires two arguments, number of columns and the amount of space between each column.
+This particular is quite powerful since once you specify the number of columns automatically the number of rows will be generated since a grid is made up of both rows and columns.
 
 ### Continued development
 
-I plan to research more on css grids and practicing using grids to create seemingly simple designs and once I am comfortable proceed to more complex designs.
+I plan to research more on css grids and practicing using grids to create seemingly simple designs and once I am comfortable proceed to more complex designs using the various properties that are comprised of css grid.
 
 
 ### Useful resources
